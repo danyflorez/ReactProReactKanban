@@ -1,12 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import {render} from 'react-dom';
+import KanbanBoardContainer from './KanbanBoardContainer';
 
-class App extends Component {
-  render(){
-    return (
-      <h1>Hello World</h1>
-    );
-  }
-}
-
-render(<App />, document.getElementById('root'));
+render(<KanbanBoardContainer />,document.getElementById("root"));
