@@ -2,7 +2,6 @@ import React, {Component, PropTypes} from 'react';
 import CheckList from './CheckList';
 import marked from 'marked'
 
-
 let titlePropType = (props, propName, componentName) => {
   if (props[propName]) {
     let value = props[propName];
@@ -13,9 +12,6 @@ let titlePropType = (props, propName, componentName) => {
     }
   }
 }
-
-
-
 
 class Card extends Component {
   constructor(){
